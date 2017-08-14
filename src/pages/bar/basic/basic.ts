@@ -3,7 +3,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 // import { Ng2Echarts } from 'ng2-echarts';
-
+import { EChartOption } from 'echarts-ng2';
 // @IonicPage()
 @Component({
   selector: 'page-bar-basic',
@@ -15,7 +15,7 @@ export class BarBasicPage {
 
   barBasicChart: any;
 
-  option: any;
+  option: EChartOption;
 
   constructor(
     public navCtrl: NavController,
@@ -29,7 +29,7 @@ export class BarBasicPage {
   }
 
   getOption(){
-    
+
   }
 
   ngAfterViewInit() {
