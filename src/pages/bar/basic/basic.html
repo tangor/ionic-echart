@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Bar</ion-title>
+    <ion-title>Bar Basic</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -13,7 +13,7 @@
       Bar Chart
     </ion-card-header>
     <ion-card-content>
-      <div #barCanvas></div>
+      <echarts-ng2 [option]="option"></echarts-ng2>
     </ion-card-content>
   </ion-card>
 </ion-content>
